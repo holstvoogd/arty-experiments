@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>LED0</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>H5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>LED1</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>J5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>LED2</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>T9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>LED3</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>T10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>LED&apos;s</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Clock</string>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>10</int>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>W3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="480" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Counter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>splitterSpreading</string>
+          <int>2</int>
+        </entry>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>1*4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>BTN0</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>D9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>BTN1</string>
+        </entry>
+        <entry>
+          <string>pinNumber</string>
+          <string>C9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="520"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="700" y="480"/>
+      <p2 x="720" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="480"/>
+      <p2 x="680" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="480"/>
+      <p2 x="580" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="560"/>
+      <p2 x="720" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="500"/>
+      <p2 x="580" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="520"/>
+      <p2 x="720" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="520"/>
+      <p2 x="580" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="600"/>
+      <p2 x="720" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="480" y="360"/>
+      <p2 x="520" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="360"/>
+      <p2 x="520" y="500"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
